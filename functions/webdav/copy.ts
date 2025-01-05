@@ -1,4 +1,7 @@
-import pLimit from "p-limit";
+git add webpack.config.js
+git commit -m "Exclude p-limit from bundle"
+git push
+pLimit from "p-limit";
 
 import { notFound } from "./utils";
 import { listAll, RequestHandlerParams, WEBDAV_ENDPOINT } from "./utils";
