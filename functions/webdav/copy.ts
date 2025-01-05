@@ -1,6 +1,6 @@
-commit -m "Exclude p-limit from bundle";
-push;
-pLimit from "p-limit";
+# Git commands should not be in the JavaScript code
+git commit -m "Exclude p-limit from bundle"
+git push
 
 import { notFound } from "./utils";
 import { listAll, RequestHandlerParams, WEBDAV_ENDPOINT } from "./utils";
