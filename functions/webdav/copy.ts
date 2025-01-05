@@ -1,3 +1,9 @@
+module.exports = {
+  // Other configuration settings
+  externals: {
+    'p-limit': 'commonjs p-limit'
+  }
+};
 import pLimit from "p-limit"; // Correct import statement
 import { notFound } from "./utils";
 import { listAll, RequestHandlerParams, WEBDAV_ENDPOINT } from "./utils";
