@@ -1,4 +1,3 @@
-add webpack.config.js;
 commit -m "Exclude p-limit from bundle";
 push;
 pLimit from "p-limit";
