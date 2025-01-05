@@ -1,6 +1,6 @@
-git add webpack.config.js
-git commit -m "Exclude p-limit from bundle"
-git push
+add webpack.config.js;
+commit -m "Exclude p-limit from bundle";
+push;
 pLimit from "p-limit";
 
 import { notFound } from "./utils";
